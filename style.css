@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0; /* Xóa lề mặc định */
+    padding: 0; /* Xóa đệm mặc định*/
+    box-sizing: border-box; /* Dễ kiểm soát kích thước*/
+}
+body{
+    background-color:black; 
+    font-family: "Roboto", sans-serif; /* ap dung toan trang*/
+    width: 100%; /* chieu cao bang man hinh lap*/
+    min-height: 100vh; /* nhu tren*/
+    color:white;
+}
+.header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    padding: 20px 50px;
+}
+.logo{
+    font-size: 45px;
+    font-weight: 700;
+    cursor: pointer;
+}
+nav ul{
+    display: flex; /* bien thanh menu home, sports,.. thanh 1 dong ngang*/
+}
+nav ul li{
+    list-style: none; /* xoa dau cham tron dau dong cua home, sports,..*/
+    margin: 0 15px; /*tao khoang cach giua cac muc home, sports.. trenduoi=0, traiphai=15*/
+    padding: 0 10px; /*vung bam chuot*/
+    border-left: 1px solid black; /* dong duong gach doc 2 ben chu home, sports..*/
+    border-right: 1px solid black;
+    transition: 0.3s; /*hieu ung chuyen doi cac tab muot 0.3s de do bi lag*/
+}
+nav ul li:hover{
+    border-left: 1px solid white; /* nhấn mạnh dg gạch 2 bên mỗi khi rê chuột vào sẽ hiện*/
+    border-right: 1px solid white;
+}
+nav ul li a{
+    text-decoration: none;/* bỏ gạch chân của home, sports,..*/
+    color: white; /* chu home sports.. mau trang*/
+    letter-spacing: 1px;/* giãn chữ thêm*/
+}
+.topHeadlines{
+    padding: 100px 50px 50px;/*khoang cach ben trong tu vien vao noi dung. tren:100px,trai-phai:50,duoi:50*/
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr; /* chia 2 cot, cot1=1.5, cot2=1*/
+}
+.topHeadlines .left{
+    padding: 10px 30px; /*khoach cach tren-duoi:10, trai-phai:30*/
+    background-color: darkgray;
+}
+.topHeadlines .left > .title{
+    font-size: 20px; /*font tiede*/
+    padding: 15px; /*kcach ben trong cho tieude trenduoitraiphai 15*/
+    text-align: center;/*can giua theo chieu ngang*/
+}
+.topHeadlines .left .img{
+    width: 100%;
+    height: 400px;
+    background-color:brown;
+}
+.topHeadlines .left .text{
+    padding: 20px 15px 10px; /* kcach ndung voi anh, tren=20, trai-phai=15, duoi=10*/
+}
