@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.css" integrity="sha512-NhLySQDkiKSKnT+R795uaHWRQ7D3VuIvgeOLCK8cWq4w5fq4sWF90gj8eURpTqn/f1mFzqClpOz8JPlgVTLfFw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>News Website</title>
 </head>
@@ -15,10 +16,13 @@
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Sports</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Technology</a></li>
+                <li><a href="#sportsNews">Sports</a></li>
+                <li><a href="#techNews">Technology</a></li>
             </ul>
+            <div class="bar">
+                <i class="open fa-solid fa-bars-staggered"></i>
+                <i class="close fa-solid fa-xmark"></i>
+            </div>
         </nav>
     </div>    
     <div class="topHeadlines"> 
@@ -26,13 +30,13 @@
             <div class="title">
                 <h2>Breaking News</h2>
             </div>
-            <div class="img" id="breakingImg"></div>
+            <img src="img/anh4.webp" class="img" alt="">
             <div class="text" id="breakingNews">
                 <div class="title">
-                    <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos labore accusantium qui facilis?</h2>
+                <a href="https://dantri.com.vn/tet.htm">Tai nghe sở hữu thiết kế thân dài quen thuộc, tương tự phần lớn các mẫu tai nghe in-ear trên thị trường. <a>
                 </div>
                 <div class="description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quod fuga labore repellat eum culpa.
+                    Kiểu dáng này giúp thao tác cảm ứng dễ dàng hơn, đồng thời tăng độ ổn định khi đeo, đặc biệt trong các hoạt động di chuyển như đi bộ hoặc chạy bộ.
                 </div>   
             </div>   
         </div>
@@ -42,7 +46,7 @@
             </div>
             <div class="topNews">
                  <div class="news">
-                    <div class="img"></div>
+                    <img src="img/Top Headlines/top6.webp" class="img" alt="">
                     <div class="text">
                         <div class="title">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, aspernatur.
@@ -50,7 +54,7 @@
                     </div>
                 </div>
                  <div class="news">
-                    <div class="img"></div>
+                    <img src="img/Top Headlines/top7.jpg" class="img" alt="">
                     <div class="text">
                         <div class="title">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, aspernatur.
@@ -58,7 +62,7 @@
                     </div>
                 </div>
                 <div class="news">
-                    <div class="img"></div>
+                    <img src="img/Top Headlines/top3.webp" class="img" alt="">
                     <div class="text">
                         <div class="title">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, aspernatur.
@@ -66,7 +70,7 @@
                     </div>
                 </div>
                  <div class="news">
-                    <div class="img"></div>
+                    <img src="img/Top Headlines/top4.webp" class="img" alt="">
                     <div class="text">
                         <div class="title">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, aspernatur.
@@ -84,7 +88,7 @@
             </div>   
             <div class="newsBox">
                 <div class="newsCard">
-                    <div class="img"></div>
+                    <img src="img/Sports News/top1.webp" class="img" alt="">
                     <div class="text">
                         <div class="title">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus adipisci illo amet temporibus voluptatum.</p>
@@ -92,7 +96,7 @@
                     </div>                      
                 </div>
                 <div class="newsCard">
-                    <div class="img"></div>
+                    <img src="img/Sports News/top4.jpg" class="img" alt="">
                     <div class="text">
                         <div class="title">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus adipisci illo amet temporibus voluptatum.</p>
@@ -100,7 +104,7 @@
                     </div>                      
                 </div>
                 <div class="newsCard">
-                    <div class="img"></div>
+                    <img src="img/Sports News/top5.webp" class="img" alt="">
                     <div class="text">
                         <div class="title">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus adipisci illo amet temporibus voluptatum.</p>
@@ -108,7 +112,7 @@
                     </div>                      
                 </div>
                 <div class="newsCard">
-                    <div class="img"></div>
+                   <img src="img/Sports News/top7.webp" class="img" alt="">
                     <div class="text">
                         <div class="title">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus adipisci illo amet temporibus voluptatum.</p>
@@ -116,7 +120,7 @@
                     </div>                      
                 </div>
                 <div class="newsCard">
-                    <div class="img"></div>
+                     <img src="img/Sports News/top8.jpeg" class="img" alt="">
                     <div class="text">
                         <div class="title">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus adipisci illo amet temporibus voluptatum.</p>
@@ -125,60 +129,13 @@
                 </div>
             </div>            
         </div>   
-        <div class="news" id="businessNews">
-            <div class="title">
-                <h2>Busniess News</h2>
-            </div>   
-            <div class="newsBox">
-                <div class="newsCard">
-                    <div class="img"></div>
-                    <div class="text">
-                        <div class="title">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus adipisci illo amet temporibus voluptatum.</p>
-                        </div>
-                    </div>                      
-                </div>
-                <div class="newsCard">
-                    <div class="img"></div>
-                    <div class="text">
-                        <div class="title">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus adipisci illo amet temporibus voluptatum.</p>
-                        </div>
-                    </div>                      
-                </div>
-                <div class="newsCard">
-                    <div class="img"></div>
-                    <div class="text">
-                        <div class="title">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus adipisci illo amet temporibus voluptatum.</p>
-                        </div>
-                    </div>                      
-                </div>
-                <div class="newsCard">
-                    <div class="img"></div>
-                    <div class="text">
-                        <div class="title">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus adipisci illo amet temporibus voluptatum.</p>
-                        </div>
-                    </div>                      
-                </div>
-                <div class="newsCard">
-                    <div class="img"></div>
-                    <div class="text">
-                        <div class="title">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus adipisci illo amet temporibus voluptatum.</p>
-                        </div>
-                    </div>                      
-                </div>
-            </div>            
-        </div>  
-        <div class="news" id="techsNews">
+    <div class="news" id="techNews">
             <div class="title">
                 <h2>Technology News</h2>
             </div>   
             <div class="newsBox">
                 <div class="newsCard">
-                    <div class="img"></div>
+                    <img src="img/Technology News/tech5.webp" class="img" alt="">
                     <div class="text">
                         <div class="title">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus adipisci illo amet temporibus voluptatum.</p>
@@ -186,7 +143,7 @@
                     </div>                      
                 </div>
                 <div class="newsCard">
-                    <div class="img"></div>
+                    <img src="img/Technology News/tech4.webp" class="img" alt="">
                     <div class="text">
                         <div class="title">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus adipisci illo amet temporibus voluptatum.</p>
@@ -194,7 +151,7 @@
                     </div>                      
                 </div>
                 <div class="newsCard">
-                    <div class="img"></div>
+                    <img src="img/Technology News/tech6.webp" class="img" alt="">
                     <div class="text">
                         <div class="title">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus adipisci illo amet temporibus voluptatum.</p>
@@ -202,7 +159,7 @@
                     </div>                      
                 </div>
                 <div class="newsCard">
-                    <div class="img"></div>
+                    <img src="img/Technology News/tech2.webp" class="img" alt="">
                     <div class="text">
                         <div class="title">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus adipisci illo amet temporibus voluptatum.</p>
@@ -210,7 +167,7 @@
                     </div>                      
                 </div>
                 <div class="newsCard">
-                    <div class="img"></div>
+                    <img src="img/Technology News/tech3.webp" class="img" alt="">
                     <div class="text">
                         <div class="title">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus adipisci illo amet temporibus voluptatum.</p>
@@ -219,7 +176,48 @@
                 </div>
             </div>            
         </div>  
-    </div> 
+    </div>
+    <div class="footer">
+        <div class="box">
+            <div class="left">
+                <div class="categories">
+                    <p>Categories</p>
+                    <div>
+                        <p>Sports</p>
+                    </div>
+                    <div>
+                        <p>Technology</p>
+                    </div>    
+                </div> 
+                <div class="contactUs">
+                    <div class="contact">
+                        <p>Contact Us</p>
+                        <div>Phone No. -<span>0389538388</span></div>  
+                        <div>Email -<span>nguyenlebaotram55@gmail.com</span></div>
+                        <div>Address -<span>Thanh Hóa, Việt Nam</span></div> 
+                    </div>  
+                    <div class="icon">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div> 
+                </div>
+            </div>
+            <div class="right">
+                <div class="newsletter">
+                    <p>Subscribe to Our Newsletter</p>
+                    <div class="email">
+                        <input type="email" placeholder="Enter Your Email Here">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyrights">
+            Copyrights &copy; 2025 
+        </div>
+    </div>
+
 
     
     
