@@ -117,13 +117,13 @@ nav ul li a{
 .topHeadlines .left .text{
     padding: 20px 15px 10px; /* kcach ndung voi anh, tren=20, trai-phai=15, duoi=10*/
 }
-.topHeadlines .left .text .title a{
+.topHeadlines .left .text .title{
     font-size: 20px;
     letter-spacing: 1px; /*khoach cach giua cac chu*/
     display: inline;
     cursor: pointer; /* khi re chuot chon tro se tro thanh ban tay*/
 }
-.topHeadlines .left .text .title a:hover{
+.topHeadlines .left .text .title:hover{
     text-decoration: underline; /*gạch chân dong trong the h2*/
 }
 .topHeadlines .left .text .description{
@@ -451,7 +451,7 @@ nav ul li a{
     .topHeadlines .right .topNews .news .img {
         width: 150px;
     }
-    .topHeadlines .right .topNews .news .text .title a p {
+    .topHeadlines .right .topNews .news .text .title {
         font-size: 14px;
     }
     .page2 .news .newsBox .newsCard .img {
@@ -460,7 +460,7 @@ nav ul li a{
     .page2 .news .newsBox .newsCard .text {
         padding: 5px;
     }
-    .page2 .news .newsBox .newsCard .text .title a p {
+    .page2 .news .newsBox .newsCard .text .title {
         font-size: 14px;
     }
     .footer .box .left .categories > p {
@@ -514,7 +514,7 @@ nav ul li a{
     .topHeadlines .right .topNews .news .img {
         width: 220px;
     }
-    .topHeadlines .right .topNews .news .text .title a p {
+    .topHeadlines .right .topNews .news .text .title{
         font-size: 18px;
     }
     .page2 .news .newsBox .newsCard {
@@ -544,7 +544,7 @@ nav ul li a{
     .topHeadlines .right .topNews .news .img {
         width: 150px;
     }
-    .topHeadlines .right .topNews .news .text .title a p {
+    .topHeadlines .right .topNews .news .text .title{
         font-size: 14px;
     }
     .page2 .news .newsBox .newsCard {
@@ -601,7 +601,7 @@ nav ul li a{
         height: 100%;
         min-height: 150px;
     }
-    .page2 .news .newsBox .newsCard .text .title a p {
+    .page2 .news .newsBox .newsCard .text .title {
         font-size: 16px;
     }
     .footer .newsletter .email {
